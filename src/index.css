@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+}
+
+a {
+	@apply text-blue-500 hover:text-blue-700;
+}
+
+button {
+	@apply bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded;
+}
